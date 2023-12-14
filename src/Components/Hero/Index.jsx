@@ -11,16 +11,14 @@ import {
     ArrowRight
 } from '../Hero/HeroElements'
 import { Button } from '../../Utilities/ButtonElements'
-import Video from '../../Videos/video.mp4'
+import Video from '../../Videos/_video.mp4'
+import './styles.css'
 
 const Hero = () => {
 
     const [hover, setHover] = useState(false);
 
-    const onHover = () => {
-        setHover(!hover);
-    }
-
+    const onHover = () => setHover(!hover);
     return (
         <>
             <HeroContainer>
@@ -28,10 +26,15 @@ const Hero = () => {
                     <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
                 </HeroBg>
                 <HeroContent>
-                    <HeroTitle>Virtual Banking Made Easy</HeroTitle>
+                    {/* Spiritual Leader */}
+                    {/* <HeroTitle>Abd Al-Rahman Al-Jifri</HeroTitle> */}
+
+                    {/* Legacy */}
+                    {/* abdul qadir al jifri */}
+                    <HeroTitle>Abdul Qadir Al-Jifri</HeroTitle> 
+                    <HeroTitle>Foundation</HeroTitle>
                     <HeroP>
-                        SignUp for a new account today and recieve $250
-                        in credit towards your next payment.
+                        This Foundation is crafted to expand and enrich the Islamic culture within diverse communities. We draw inspiration from the profound legacy and works of our forefather <span style={{ fontWeight: 'bold' }}>Sharif Abdul Qadir Al-Jifri.</span>
                     </HeroP>
                     <HeroBtnWrapper>
                         <Button

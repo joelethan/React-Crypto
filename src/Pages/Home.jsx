@@ -3,8 +3,8 @@ import Navbar from '../Components/Navbar/Index'
 import Sidebar from '../Components/SideBar/Index'
 import Hero from '../Components/Hero/Index'
 import InfoSection from '../Components/Info/Index'
-import Services from '../Components/Services/Index'
-import { homeObj1, homeObj2, homeObj3 } from '../Components/Info/Data'
+import ServicesSection from '../Components/Services/Index'
+import { donationsObj, homeObj1, homeObj2, homeObj3 } from '../Components/Info/Data'
 import Footer from '../Components/Footer/Index'
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
             <Hero />
             <InfoSection  {...homeObj1} />
             <InfoSection  {...homeObj2} />
-            <Services />
+            <ServicesSection {...donationsObj} />
             <InfoSection  {...homeObj3} />
             <Footer />
         </>
