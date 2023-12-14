@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to="/" onClick={toggleHome}>
-                        dolla
+                        Al-Jifri
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
@@ -51,7 +51,7 @@ const Navbar = ({ toggle }) => {
                                 spy={true}
                                 exact='true'
                                 offset={-80}
-                            >About</NavLinks>
+                            >About US</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks
@@ -85,7 +85,7 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/">Sign In</NavBtnLink>
+                        <NavBtnLink to="sermons">Sermons</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
@@ -93,4 +93,4 @@ const Navbar = ({ toggle }) => {
     );
 };
 
-export default Navbar
+export default Navbar;

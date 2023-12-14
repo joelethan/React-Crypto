@@ -69,9 +69,9 @@ const Footer = () => {
                     <SocialMedia>
                         <SocialMediaWrap>
                             <SocialLogo to="/" onClick={toggleHome}>
-                                dolla
+                                Al-Jifri
                             </SocialLogo>
-                            <WebsiteRights>{new Date().getFullYear()} All rights reserved.
+                            <WebsiteRights>{`2020 - ${new Date().getFullYear()}`} All rights reserved.
                             </WebsiteRights>
                             <SocialIcons>
                                 <SocialIconLink
